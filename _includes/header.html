@@ -1,16 +1,14 @@
 <header>
+{% if page.url == "/" %}
   <nav class="navbar clear-nav navbar-default navbar-fixed-top">
     <div class="container nav-inner">
       <ul class="nav navbar-nav">
         <li><a class="nav-text brand" href="/">Fuel My Wanderlust</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-            <li><a class="page-link nav-text" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        <li><a class="page-link nav-text" href="/"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </nav>
+{% endif %}
 </header>
