@@ -11,6 +11,13 @@ description: > # this means to ignore newlines until "baseurl:"
   A travel inspiration website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.fuelmywanderlust.com" # the base hostname & protocol for your site
+twitter_username: hanna__taylor
+github_username:  hannataylor
+linkedin_username: hannataylor
+instagram_username: hanna__taylor
 
 # Build settings
 markdown: kramdown
+
+# Handling Reading
+include: ['_pages']
