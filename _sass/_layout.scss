@@ -31,7 +31,6 @@ footer {
 .footer-icon {
   color: black;
 }
-
 .clear-nav {
   background: 0;
   background-color: transparent !important;
@@ -39,9 +38,54 @@ footer {
   position: absolute !important;
 }
 
-
 .carousel-margin {
   margin-top: -1.5em;
+}
+
+.card-image {
+  -webkit-transition: .2s all;
+}
+.card-image:hover {
+   -webkit-filter: brightness(50%);
+}
+
+.search-button {
+  border-radius: 0;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+.search-button:hover {
+  background-color: black;
+  border: 2px solid black;
+}
+
+.explore-button {
+  border-radius: 0;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 120%;
+  margin-top: 15px;
+}
+
+.explore-button:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+.booking {
+  border: 2px solid black;
+  width: 420px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 /* Font Customization */
