@@ -51,16 +51,16 @@ footer {
 
 .search-button {
   border-radius: 0;
-  border: 2px solid black;
+  border: 3px solid black;
   color: black;
   background-color: white;
   text-transform: uppercase;
-  font-size: 80%;
+  font-size: 1em;
 }
 
 .search-button:hover {
   background-color: black;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 .explore-button {
@@ -80,7 +80,7 @@ footer {
 }
 
 .booking {
-  border: 2px solid black;
+  border: 3px solid black;
   width: 420px;
   position: relative;
   margin-left: auto;
@@ -123,4 +123,9 @@ footer {
 
 .container-margin {
   margin-top: 3em;
+}
+
+.thumbnail {
+  border: 3px solid black;
+  border-radius: 0;
 }
